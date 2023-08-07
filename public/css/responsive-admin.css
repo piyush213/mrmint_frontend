@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************************************
+responsive-admin
+******************************************************************/
+
+@media only screen and (max-width: 1199px){
+.balance_left h4 {
+  font-size: 14px;
+}
+.balance_left h4 span {
+  font-size: 20px;
+}
+.balance_left img {
+  margin-right: 5px;
+}
+.balance_middle h4 {
+  line-height: 30px;
+}
+.balance_middle h4 span {
+  padding-left: 0;
+}
+.balance_middle {
+  padding: 15px 0;
+}
+.balance_right ul li {
+  padding: 0 6px;
+}
+.deposit_withdraw_btn .btn {
+  min-width: 150px;
+}
+.deposit_withdraw_btn{ float:none; margin-top:20px;}
+
+
+}
+
+@media only screen and (max-width: 991px){
+.admin_head_links li {
+  padding: 0 13px;
+}
+.overview_block {
+  margin-bottom: 25px;
+}
+.balance_middle {
+  padding: 35px 0;
+}
+.balance_right ul li {
+  padding: 0 22px;
+}
+.chart_box {
+  margin-bottom: 30px;
+}
+.trade_block{ margin-bottom:30px;}
+
+}
+
+@media only screen and (max-width: 767px){
+.admin_head_left {
+  text-align: center;
+}
+.admin_head_right {
+  text-align: center;
+}
+.balance_left {
+  text-align: center;
+}
+.balance_left h4{ text-align:left;}
+.balance_middle {
+  padding: 15px 0;
+}
+.balance_right {
+  text-align: center; padding:0;
+}
+.balance_right ul{ font-size:0;}
+.balance_right ul li {
+  padding: 0;
+  width: 33.33%;
+}
+.stock_stats{ margin-bottom:30px;} 
+
+}
+
+@media only screen and (max-width:600px){
+.balance_middle h4 span {
+  font-size: 20px;
+}
+.qr_code_content img {
+  margin: 0 0 10px;
+}
+.qr_code_content h6{ width:100%;}
+
+}
+
+@media only screen and (max-width: 520px){
+
+}
+
+@media only screen and (max-width: 480px){
+.tab_menu ul li a {
+  min-width: 100px;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+.admin_head_links {
+  padding: 18px 0 13px;
+}
+.balance_left h4 {
+  text-align: center;
+  width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 360px){
+.tab_menu ul li a {
+  min-width: auto;
+  width: 100%;
+}
+.tab_menu ul li {
+  width: 100%;
+}
+.tab_menu ul{ width:100%;}
+.select_currency {
+  padding-left: 0;
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+
+}

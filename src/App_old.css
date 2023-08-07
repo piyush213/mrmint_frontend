@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* --------------accordion css start--------------------- */
+.accordion__button:before {
+  float: right;
+  margin-top: 6px!important;
+
+}
+.accordion__button {
+  background: linear-gradient(80deg, #c64eff, #00cdff)!important;
+  color: #fff!important;
+}
+.accordion__item + .accordion__item {
+  margin-top: 20px!important;
+}
+.faq p {
+  font-size: 16px;
+}
+/* --------------accordion css end--------------------- */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.validationError{
+  color: red!important;
+}
+
+
+header._br_-q {
+  display: none;
+}
+
+main._2MJ9D {
+  border-radius: 5px;
+}
+.asrt-page-length .input-group-addon{
+  background: transparent!important;
+}
+.referral label {
+  margin-bottom: 8px;
+}
+.step {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 50px;
+  padding: 6px;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(90deg, #c64eff, #00cdff);
+}
+.asrt-page-length select option {
+  background: #000;
+}
+.bg-world h1 {
+  font-size: 2.5rem;
+}
+.upcomming-projects h1 {
+  font-size: 2.5rem;
+}
+.tokenChart rect {
+  fill: transparent;
+}
+
+.tokenChart text {
+  fill: #fff;
+  font-size: 15px;
+}
+
+span.account-balance {
+  color: #fff;
+}
+.pl-8 {
+  padding-left: 8px;
+}
+.dashboard table {
+	color: #fff;
+	font-size: .85rem;
+	border: 1px solid #282828;
+}
+/* ---------------------------------- */
+.partner-logo {
+  text-align: center;
+  margin: 0px auto;
+}
+.partner-logo img {
+  max-width: 172px;
+}
+
+.carousel-blog .carousel-caption {
+  position: absolute;
+  right: 26%;
+  bottom: 177px;
+  left: 26%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  background: #0a070c59;
+  text-align: center;
+}

@@ -1,0 +1,1 @@
+$((function(){$("#mapDenmark").vectorMap({map:"dk_mill",zoomOnScroll:!1,regionStyle:{initial:{fill:"#EB3333"},hover:{"fill-opacity":.8},selected:{fill:"#333333"}},backgroundColor:"transparent"})}));

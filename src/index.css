@@ -1,0 +1,229 @@
+/* .swiper {
+    width: 290px;
+    height: 350px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    box-shadow: 0px 0px 4px 0px rgb(85 33 97);
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+  } */
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 0!important;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .miningcamp .cardvideo video {
+    /* border-radius: 20px; */
+    border: 2px solid #191919;
+    height: 250px;
+}
+  /* ----------------- */
+  .btn_hashpower .btn {
+    padding: 8px 0px 0px 0px;
+    /* border: 5px solid #c63edf; */
+    /* width: 314PX; */
+    /* box-shadow: 0px 0px 19px 0px #c63edf; */
+    background: #000;
+    border-radius: 0px;
+
+    margin: 0 auto;
+    display: block;
+}
+.miningcamp h4, .miningcamp h5 {
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+.miningcamp .btn_hashpower  .total_hash {
+    min-height: 68px;
+}
+.btn_hashpower .border {
+    border: 1px solid #191919!important;
+}
+
+.bottombox small {
+    font-size: 11px;
+}
+.bottombox span {
+    font-size: 15px;
+}
+.cardslider {
+    overflow: hidden;
+    padding: 5px 20px 20px 20px;
+}
+  
+.miningcamp .claimbtn .btn {
+    padding: 10px 65px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+.mntbalance ul li {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.mntbalance ul li h5 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.miningcamp::before {
+    content: "";
+    /* background: #060606; */
+    position: absolute;
+    left: 50%;
+    right: 0;
+    transform: scaleY(1.5);
+    bottom: 0;
+    top: 0;
+}
+.gradient-box {
+    position: relative;
+    background-color: #000;
+}
+
+.gradient-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background: linear-gradient(to right, red, orange);
+}
+.dailydistribution {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    height: 0;
+    margin: 0 30px;
+    /* background: #0e0e0e; */
+}
+.dailydistribution ul li {
+    display: inline;
+    border: 1px solid #44a1ff;
+    margin-right: 18px;
+    height: 20px;
+    background: linear-gradient(80deg, #c64eff, #00cdff);
+    border-radius: 5px;
+    width: 20px;
+    padding: 8px 13px;
+}
+/* .dailydistribution::before {
+    content: "";
+    position: absolute;
+
+    background: #0e0e0e;
+    clip-path: polygon(28px 0, calc(85% + 2px) 0, 100% 50%, calc(85% + 1px) 100%, 28px 100%, 0% 50%);
+
+    left: 0;
+    top: 0;
+    height: 64px;
+    width: 60px;
+}
+.dailydistribution::after {
+    content: "";
+    position: absolute;
+    background: #0e0e0e;
+    clip-path: polygon(28px 0, calc(85% + 2px) 0, 100% 50%, calc(85% + 1px) 100%, 28px 100%, 0% 50%);
+
+    right: 0;
+    top: 0;
+    transform: rotate(181deg);
+    height: 64px;
+    width: 60px;
+} */
+.boxstar {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.claim_reward .input-group-text {
+    border: none;
+    border-right: 1px solid #51195b;
+    background: transparent;
+    padding-left: 0px;
+}
+.claim_reward .input-group>.form-control {
+    border: none;
+    font-size: 28px;
+}
+.claimablerewards {
+    border-radius: 75px;
+    border: 1px solid #51195b;
+    padding: 0px 30px 0px 14px;
+    background: #000;
+    overflow: hidden;
+}
+.daily_dribute {
+    margin: 7px auto;
+    padding: 0px 20px;
+    border-radius: 20px;
+    overflow: auto;
+}
+.daily_dribute h4{
+   animation: color-change 3s infinite;
+   letter-spacing: 3.2px;
+}
+
+@keyframes color-change {
+    0% { color: #fff; }
+    25% { color: #00cdff; }
+    50% { color: #fff; }
+    100% { color: #c64eff; }
+  }
+/* -----------Miningcamp2---------- */
+.example4{
+    color: #000;
+	text-shadow: -1px 1px 0 #c64eff,
+				  1px 1px 0 #c64eff,
+				 1px -1px 0 #c64eff,
+				-1px -1px 0 #c64eff;
+}
+.miningcamp2 {
+    background-image: url(https://template.labartisan.net/demos/jackpoo/jackpoo/assets/images/pageheader/bg.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.miningcamp2 .cardvideo video {
+    border: 10px solid #fff;
+    border-radius: 25px;
+}
+
+
+.transaction_modal .modal-content {
+    /* background-color: #000; */
+    min-height: 180px;
+    background: linear-gradient(45deg, #491c60e3, #2d3b6ffa);
+    border: 1px solid #6a5e88;
+}
+.transaction_modal .modal-header {
+    border-bottom: 1px solid #6a5e88;
+}

@@ -1,0 +1,1 @@
+$((function(){$("#mapAfrica").vectorMap({map:"africa_mill",backgroundColor:"transparent",scaleColors:["#FF7E39"],zoomOnScroll:!1,zoomMin:1,hoverColor:!0,series:{regions:[{values:gdpData,scale:["#435EEF"],normalizeFunction:"polynomial"}]}})}));

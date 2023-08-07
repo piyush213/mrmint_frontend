@@ -1,0 +1,215 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-ExtraLight.woff2) format("woff2"), url(../font/monsterrat/Montserrat-ExtraLight.woff) format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-ExtraBoldItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-ExtraBoldItalic.woff) format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Light.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Light.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Black.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Black.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-BoldItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-BoldItalic.woff) format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Bold.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-ExtraBold.woff2) format("woff2"), url(../font/monsterrat/Montserrat-ExtraBold.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-ExtraLightItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-ExtraLightItalic.woff) format("woff");
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Italic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Italic.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-BlackItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-BlackItalic.woff) format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Medium.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Medium.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-MediumItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-MediumItalic.woff) format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-LightItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-LightItalic.woff) format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Thin.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Thin.woff) format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-Regular.woff2) format("woff2"), url(../font/monsterrat/Montserrat-Regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-SemiBold.woff2) format("woff2"), url(../font/monsterrat/Montserrat-SemiBold.woff) format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-SemiBoldItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-SemiBoldItalic.woff) format("woff");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/monsterrat/Montserrat-ThinItalic.woff2) format("woff2"), url(../font/monsterrat/Montserrat-ThinItalic.woff) format("woff");
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Equinox bold;
+	font-style: normal;
+	font-weight: 700;
+	src: url(../font/Equinox_Bold.otf) format("truetype");
+	font-display: swap
+}
+
+@font-face {
+	font-family: Equinox;
+	src: url(../font/Equinox_Regular.otf) format("opentype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Bold.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-ExtraBold.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-ExtraBold.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Black.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Black.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Thin.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Thin.woff) format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Regular.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Medium.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Medium.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: M PLUS\ 1p;
+	src: url(/fonts/mplusone/MPLUS1p-Light.woff2) format("woff2"), url(/fonts/mplusone/MPLUS1p-Light.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap
+}

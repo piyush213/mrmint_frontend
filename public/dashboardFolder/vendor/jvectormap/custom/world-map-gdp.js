@@ -1,0 +1,1 @@
+$((function(){$("#world-map-gdp").vectorMap({map:"world_mill_en",zoomOnScroll:!1,series:{regions:[{values:gdpData,scale:["#435EEF"],normalizeFunction:"polynomial"}]},backgroundColor:"transparent",onRegionTipShow:function(o,n,a){n.html(n.html()+" (GDP - "+gdpData[a]+")")}})}));

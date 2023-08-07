@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************************************
+responsive
+******************************************************************/
+
+@media only screen and (max-width: 1199px){
+.currency_monetize ul li {
+  padding: 0 4px;
+}
+
+.why_choose_block span::after{width:125px !important; background-size:100% auto !important;}
+
+}
+
+@media only screen and (max-width: 991px){
+.header_top_left {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.header_top_right {
+  text-align: center;
+}
+header {background: rgb(239,58,67);
+background: -moz-linear-gradient(left, rgba(239,58,67,1) 0%, rgba(179,36,102,1) 100%);
+background: -webkit-linear-gradient(left, rgba(239,58,67,1) 0%,rgba(179,36,102,1) 100%);
+background: linear-gradient(to right, rgba(239,58,67,1) 0%,rgba(179,36,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3a43', endColorstr='#b32466',GradientType=1 );
+  position: inherit;
+  z-index: auto;
+}
+.header_menu .navbar-inverse .navbar-nav > li > a {
+  padding: 10px;
+}
+.header_menu .navbar-inverse .navbar-nav > li > .btn-block{ min-width:95px !important; padding: 0 10px !important;}
+
+.section_1 {
+  padding: 50px 0 0;
+}
+
+.timer_right .btn{ min-width:60px;}
+.clock_counter_main ul li span {
+  font-size: 25px;
+}
+.clock_counter_main ul li {
+  padding: 0 6px;
+}
+.timer_left i {
+  font-size: 30px;
+}
+.timer_left h4 span {
+  font-size: 18px;
+}
+.timer_box {
+  padding: 12px;
+}
+.clock_counter_main ul {
+  padding: 7px 0;
+}
+.timer_left {
+  padding: 7px 0;
+}
+.currency_monetize ul li {
+  padding: 10px;
+  width: 33.33%;
+}
+.why_choose_block span::after{ display:none;}
+.why_choose_block {
+  margin-bottom: 20px;
+}
+.crypto_blockchain {
+  text-align: center; margin-bottom:30px;
+}
+.crypto_blockchain span {
+  text-align: center;
+}
+.token_chart {
+  margin-bottom: 30px;
+}
+.section_4::before{ display:none; }
+.section_4{ padding: 40px 0;}
+.token_sale_details ul li {
+  width: 50%; margin-bottom:20px;
+}
+.doc_download ,
+.doc_download .main_title{
+  text-align: center;
+}
+.airdrop_content h4 {
+  font-size: 30px;
+}
+.airdrop_content h4 span {
+  font-size: 20px;
+}
+.airdrop_content h2 {
+  font-size: 40px;
+}
+.airdrop_content p br{ display:none;}
+.footer_inner {
+  margin-bottom: 30px;
+}
+.inner_banner {
+  padding: 40px 0 20px;
+}
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+.header_top_left ul li {
+  padding: 5px;
+}
+header .navbar-toggle{ margin:1px 0; border:0; background:#ef3a43; border-radius:0;}
+header .navbar-inverse .navbar-toggle:hover, 
+header .navbar-inverse .navbar-toggle:focus{  background:#ffffff;}
+header .navbar-inverse .navbar-toggle:hover .icon-bar, 
+header .navbar-inverse .navbar-toggle:focus .icon-bar{ background-color:#b42466;}
+.header_menu {
+  padding: 15px 0;
+}
+header .navbar-inverse .navbar-collapse{ box-shadow:none; border:none;}
+.header_menu .navbar-inverse .navbar-nav > li > a {padding: 12px 0;}
+.header_menu .navbar-inverse .navbar-nav > li > a:hover{ padding:12px 5px;}
+
+.section_1 {padding: 50px 0 0;}
+.timer_left,
+.timer_right {
+  text-align: center;
+}
+.clock_counter_main ul li {
+  padding: 5px 12px;
+}
+.timer_box {
+  border-radius: 15px;
+}
+.timer_right .btn {
+  min-width: 180px;
+}
+.clock_counter_main ul li span {
+  font-size: 45px;
+}
+.timer_middle {
+  padding: 15px 0;
+}
+.timer_left h4 {
+  text-align: left;
+}
+.progress_bottom li span {
+  font-size: 15px;
+}
+.progress_bottom li {
+  line-height: 20px;
+}
+.roadmap_right {
+  padding-left: 50px;
+}
+.roadmap_left h5::before {
+  padding-right: 15px;
+}
+.token_sale_stats ul li {
+  width: 50%;
+}
+.docs li {
+  padding: 5px;
+}
+.clients ul li {
+  border: 1px solid #e6e8ea !important;
+  width: 33.33%;
+}
+.logo {
+  text-align: center; margin-bottom:20px;
+}
+.inner_breadcrumb {
+  text-align: center;
+}
+.inner_banner {
+  padding: 40px 0 0;
+}
+.form_title h5 {
+  font-size: 22px;
+}
+
+
+}
+
+@media only screen and (max-width:600px){
+.banner_content h2 small {
+  font-size: 20px; line-height: 30px;
+}
+.banner_content h2 {
+  font-size: 60px;
+}
+.roadmap_tab_box ul li a {
+  font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 520px){
+.clock_counter_main ul li span {
+  font-size: 30px;
+}
+.currency_monetize ul li {
+  padding: 10px;
+  width: 50%;
+}
+.token_sale_stats ul li {
+  width: 100%;
+}
+.clients ul li {
+  width: 50%;
+}
+footer .col-xs-4{ width:100%;}
+.form_title h5 {
+  font-size: 18px; line-height: 30px;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+.clock_counter_main ul li span {
+  font-size: 25px;
+}
+.token_sale_details ul li {
+  width: 100%;
+}
+.doc_download h3 select {
+  margin: 15px 0 0;
+  min-width: 100%;
+  width: auto !important;
+}
+.form_box {
+  padding: 30px 20px;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+.clock_counter_main ul li span {
+  font-size: 25px;
+  font-weight: 400;
+}
+.clock_counter_main ul li {
+  padding: 5px;
+}
+.buy_token_btn .btn {
+  min-width: 100%;
+}
+.airdrop_content .btn {
+  min-width: 100%;
+}
+.roadmap_tab_box ul li a {
+  font-size: 14px;
+  font-weight: normal;
+}
+.roadmap_tab_box ul {
+  border-radius: 0;
+}
+.roadmap_tab_box ul li {
+  width: 33.33%;
+}
+.roadmap_tab_box ul li a {
+  padding: 10px 0;
+}
+.roadmap_tab_box ul .active a {
+  border-radius: 0;
+}
+
+}
+
+@media only screen and (max-width: 360px){
+.header_top_right ul li {
+  padding: 5px;
+}
+.banner_content h2 {
+  font-size: 40px;
+}
+.clock_counter_main ul li span {
+  font-size: 16px;
+}
+.currency_monetize ul li {
+  width: 100%;
+}
+.progress_bottom li {
+  font-size: 12px;
+}
+.progress_bottom li span {
+  font-size: 13px;
+  font-weight: normal;
+}
+.forgot_pwd a {
+  display: block;
+  float: none;
+  margin-top: 10px;
+}
+.forgot_pwd span {
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
